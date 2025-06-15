@@ -12,7 +12,7 @@ import 'package:gap/gap.dart';
 class DetailTabContent extends StatelessWidget {
   final CollectionDetailState state;
 
-  const DetailTabContent(this.state);
+  const DetailTabContent(this.state, {super.key});
 
   @override
   Widget build(BuildContext context) {

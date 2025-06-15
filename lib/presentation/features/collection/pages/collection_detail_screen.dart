@@ -1,5 +1,4 @@
-import 'package:auto_route/auto_route.dart';
-import 'package:clevit_flutter_bloc/core/enum/collection_detail_type.dart';
+import 'package:auto_route/auto_route.dart'; 
 import 'package:clevit_flutter_bloc/core/services/connectivity_service.dart';
 import 'package:clevit_flutter_bloc/core/theme/app_fonts.dart';
 import 'package:clevit_flutter_bloc/core/theme/app_theme.dart';
@@ -10,12 +9,10 @@ import 'package:clevit_flutter_bloc/presentation/bloc/collection/collection_deta
 import 'package:clevit_flutter_bloc/presentation/bloc/collection/collection_detail_state.dart';
 import 'package:clevit_flutter_bloc/presentation/features/collection/widgets/tab_widget.dart';
 import 'package:clevit_flutter_bloc/presentation/widgets/bottle_status_bar.dart';
-import 'package:clevit_flutter_bloc/presentation/widgets/one_cask_button_widget.dart';
-import 'package:clevit_flutter_bloc/presentation/widgets/one_cask_video_player.dart';
+import 'package:clevit_flutter_bloc/presentation/widgets/one_cask_button_widget.dart'; 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_bloc/flutter_bloc.dart'; 
 import 'package:gap/gap.dart';
 
 @RoutePage()
