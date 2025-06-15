@@ -1,0 +1,448 @@
+[
+  {
+    "bottle": {
+      "id": "2504",
+      "bottleNumber": "135/184",
+      "name": "Talisker 18 Year old",
+      "brand": "Talisker",
+      "age": 18,
+      "isOpened": false,
+      "collection": "Genesis Collection",
+      "image": {
+        "url": "https://example.com/images/talisker-18-2504.jpg",
+        "alt": "Talisker 18 Year Old Bottle #2504"
+      },
+      "details": {
+        "distillery": "Talisker Distillery",
+        "region": "Isle of Skye",
+        "country": "Scotland",
+        "type": "Single Malt Scotch Whisky",
+        "ageStatement": "18 Years",
+        "filled": "2005-03-15",
+        "bottled": "2023-03-15",
+        "caskNumber": "HHD-4721",
+        "abv": 45.8,
+        "size": "700ml",
+        "finish": "Sherry Cask Finish"
+      },
+      "tastingNotes": {
+        "author": "Charles MacLean MBE",
+        "videoUrl": "https://example.com/videos/talisker-18-tasting.mp4",
+        "nose": {
+          "descriptions": [
+            "Rich maritime influence with sea salt and seaweed",
+            "Dried fruits and honey sweetness",
+            "Subtle smoke and peat undertones"
+          ]
+        },
+        "palate": {
+          "descriptions": [
+            "Full-bodied with warming spices",
+            "Dark chocolate and coffee notes",
+            "Balanced sweetness with dried fruit complexity"
+          ]
+        },
+        "finish": {
+          "descriptions": [
+            "Long and warming finish",
+            "Lingering smoke and pepper",
+            "Sweet vanilla and oak influence"
+          ]
+        }
+      },
+      "userNotes": {
+        "nose": {
+          "descriptions": [
+            "Personal tasting note 1",
+            "Personal tasting note 2",
+            "Personal tasting note 3"
+          ]
+        },
+        "palate": {
+          "descriptions": [
+            "Personal palate note 1",
+            "Personal palate note 2",
+            "Personal palate note 3"
+          ]
+        },
+        "finish": {
+          "descriptions": [
+            "Personal finish note 1",
+            "Personal finish note 2",
+            "Personal finish note 3"
+          ]
+        }
+      },
+      "history": [
+        {
+          "id": "hist_1",
+          "date": "2005-03-15T09:00:00Z",
+          "event": "Cask Filled",
+          "description": "Single malt whisky filled into ex-bourbon hogshead cask",
+          "location": "Talisker Distillery, Isle of Skye",
+          "caskType": "Ex-Bourbon Hogshead",
+          "caskNumber": "HHD-4721",
+          "responsible": "Master Distiller",
+          "notes": "Initial fill with new make spirit at 63.5% ABV"
+        },
+        {
+          "id": "hist_2",
+          "date": "2010-03-15T14:30:00Z",
+          "event": "5 Year Inspection",
+          "description": "Routine cask inspection and sampling",
+          "location": "Talisker Warehouse No. 3",
+          "abv": 61.2,
+          "responsible": "Warehouse Manager",
+          "notes": "Cask showing excellent maturation progress, no leakage detected"
+        },
+        {
+          "id": "hist_3",
+          "date": "2015-03-15T11:15:00Z",
+          "event": "10 Year Inspection",
+          "description": "Mid-term maturation assessment",
+          "location": "Talisker Warehouse No. 3",
+          "abv": 58.9,
+          "responsible": "Master Blender",
+          "notes": "Exceptional development of maritime characteristics, earmarked for single cask release"
+        },
+        {
+          "id": "hist_4",
+          "date": "2020-03-15T10:45:00Z",
+          "event": "15 Year Assessment",
+          "description": "Pre-bottling quality assessment",
+          "location": "Talisker Distillery",
+          "abv": 55.3,
+          "responsible": "Master Distiller",
+          "notes": "Approved for Genesis Collection, limited bottling authorized"
+        },
+        {
+          "id": "hist_5",
+          "date": "2022-12-10T08:30:00Z",
+          "event": "Cask Selection",
+          "description": "Final selection for Genesis Collection bottling",
+          "location": "Talisker Distillery",
+          "responsible": "Master Blender",
+          "notes": "Cask selected as one of 184 bottles for exclusive release"
+        },
+        {
+          "id": "hist_6",
+          "date": "2023-03-15T13:20:00Z",
+          "event": "Bottling",
+          "description": "Single cask bottling for Genesis Collection",
+          "location": "Talisker Bottling Hall",
+          "bottleNumber": "135/184",
+          "finalABV": 45.8,
+          "responsible": "Bottling Manager",
+          "notes": "Non-chill filtered, natural color, bottle #135 of 184"
+        },
+        {
+          "id": "hist_7",
+          "date": "2023-03-20T16:45:00Z",
+          "event": "Quality Control",
+          "description": "Final quality inspection and certification",
+          "location": "Talisker Quality Lab",
+          "responsible": "Quality Manager",
+          "notes": "Passed all quality tests, certificate of authenticity issued"
+        },
+        {
+          "id": "hist_8",
+          "date": "2023-03-22T09:15:00Z",
+          "event": "Shipped",
+          "description": "Shipped to Master of Malt for exclusive release",
+          "location": "Talisker Dispatch",
+          "destination": "Master of Malt, Kent, UK",
+          "responsible": "Logistics Team",
+          "trackingNumber": "TK2023-2504-MoM"
+        },
+        {
+          "id": "hist_9",
+          "date": "2023-03-25T14:00:00Z",
+          "event": "Listed for Sale",
+          "description": "Made available for purchase on Master of Malt",
+          "location": "Master of Malt Online",
+          "price": 450.0,
+          "currency": "USD",
+          "responsible": "Master of Malt",
+          "notes": "Exclusive online release, limited to one per customer"
+        }
+      ],
+      "labels": [
+        {
+          "id": "label_1",
+          "title": "Master of Malt Exclusive",
+          "description": "Limited release exclusive to Master of Malt",
+          "additionalInfo": "Only 184 bottles produced",
+          "attachments": [
+            {
+              "id": "att_1",
+              "type": "image",
+              "url": "https://example.com/attachments/certificate1.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_certificate1.jpg"
+            },
+            {
+              "id": "att_2",
+              "type": "image",
+              "url": "https://example.com/attachments/certificate2.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_certificate2.jpg"
+            },
+            {
+              "id": "att_3",
+              "type": "pdf",
+              "url": "https://example.com/attachments/authenticity.pdf",
+              "thumbnail": "https://example.com/attachments/thumb_pdf.jpg"
+            }
+          ]
+        },
+        {
+          "id": "label_2",
+          "title": "Cask Strength Series",
+          "description": "Part of the limited cask strength collection",
+          "additionalInfo": "Natural color, non-chill filtered",
+          "attachments": [
+            {
+              "id": "att_4",
+              "type": "image",
+              "url": "https://example.com/attachments/cask_info1.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_cask_info1.jpg"
+            },
+            {
+              "id": "att_5",
+              "type": "image",
+              "url": "https://example.com/attachments/cask_info2.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_cask_info2.jpg"
+            },
+            {
+              "id": "att_6",
+              "type": "image",
+              "url": "https://example.com/attachments/distillery_photo.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_distillery_photo.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "bottle": {
+      "id": "2504",
+      "bottleNumber": "135/184",
+      "name": "Talisker 18 Year old",
+      "brand": "Talisker",
+      "age": 18,
+      "isOpened": false,
+      "collection": "Genesis Collection",
+      "image": {
+        "url": "https://example.com/images/talisker-18-2504.jpg",
+        "alt": "Talisker 18 Year Old Bottle #2504"
+      },
+      "details": {
+        "distillery": "Talisker Distillery",
+        "region": "Isle of Skye",
+        "country": "Scotland",
+        "type": "Single Malt Scotch Whisky",
+        "ageStatement": "18 Years",
+        "filled": "2005-03-15",
+        "bottled": "2023-03-15",
+        "caskNumber": "HHD-4721",
+        "abv": 45.8,
+        "size": "700ml",
+        "finish": "Sherry Cask Finish"
+      },
+      "tastingNotes": {
+        "author": "Charles MacLean MBE",
+        "videoUrl": "https://example.com/videos/talisker-18-tasting.mp4",
+        "nose": {
+          "descriptions": [
+            "Rich maritime influence with sea salt and seaweed",
+            "Dried fruits and honey sweetness",
+            "Subtle smoke and peat undertones"
+          ]
+        },
+        "palate": {
+          "descriptions": [
+            "Full-bodied with warming spices",
+            "Dark chocolate and coffee notes",
+            "Balanced sweetness with dried fruit complexity"
+          ]
+        },
+        "finish": {
+          "descriptions": [
+            "Long and warming finish",
+            "Lingering smoke and pepper",
+            "Sweet vanilla and oak influence"
+          ]
+        }
+      },
+      "userNotes": {
+        "nose": {
+          "descriptions": [
+            "Personal tasting note 1",
+            "Personal tasting note 2",
+            "Personal tasting note 3"
+          ]
+        },
+        "palate": {
+          "descriptions": [
+            "Personal palate note 1",
+            "Personal palate note 2",
+            "Personal palate note 3"
+          ]
+        },
+        "finish": {
+          "descriptions": [
+            "Personal finish note 1",
+            "Personal finish note 2",
+            "Personal finish note 3"
+          ]
+        }
+      },
+      "history": [
+        {
+          "id": "hist_1",
+          "date": "2005-03-15T09:00:00Z",
+          "event": "Cask Filled",
+          "description": "Single malt whisky filled into ex-bourbon hogshead cask",
+          "location": "Talisker Distillery, Isle of Skye",
+          "caskType": "Ex-Bourbon Hogshead",
+          "caskNumber": "HHD-4721",
+          "responsible": "Master Distiller",
+          "notes": "Initial fill with new make spirit at 63.5% ABV"
+        },
+        {
+          "id": "hist_2",
+          "date": "2010-03-15T14:30:00Z",
+          "event": "5 Year Inspection",
+          "description": "Routine cask inspection and sampling",
+          "location": "Talisker Warehouse No. 3",
+          "abv": 61.2,
+          "responsible": "Warehouse Manager",
+          "notes": "Cask showing excellent maturation progress, no leakage detected"
+        },
+        {
+          "id": "hist_3",
+          "date": "2015-03-15T11:15:00Z",
+          "event": "10 Year Inspection",
+          "description": "Mid-term maturation assessment",
+          "location": "Talisker Warehouse No. 3",
+          "abv": 58.9,
+          "responsible": "Master Blender",
+          "notes": "Exceptional development of maritime characteristics, earmarked for single cask release"
+        },
+        {
+          "id": "hist_4",
+          "date": "2020-03-15T10:45:00Z",
+          "event": "15 Year Assessment",
+          "description": "Pre-bottling quality assessment",
+          "location": "Talisker Distillery",
+          "abv": 55.3,
+          "responsible": "Master Distiller",
+          "notes": "Approved for Genesis Collection, limited bottling authorized"
+        },
+        {
+          "id": "hist_5",
+          "date": "2022-12-10T08:30:00Z",
+          "event": "Cask Selection",
+          "description": "Final selection for Genesis Collection bottling",
+          "location": "Talisker Distillery",
+          "responsible": "Master Blender",
+          "notes": "Cask selected as one of 184 bottles for exclusive release"
+        },
+        {
+          "id": "hist_6",
+          "date": "2023-03-15T13:20:00Z",
+          "event": "Bottling",
+          "description": "Single cask bottling for Genesis Collection",
+          "location": "Talisker Bottling Hall",
+          "bottleNumber": "135/184",
+          "finalABV": 45.8,
+          "responsible": "Bottling Manager",
+          "notes": "Non-chill filtered, natural color, bottle #135 of 184"
+        },
+        {
+          "id": "hist_7",
+          "date": "2023-03-20T16:45:00Z",
+          "event": "Quality Control",
+          "description": "Final quality inspection and certification",
+          "location": "Talisker Quality Lab",
+          "responsible": "Quality Manager",
+          "notes": "Passed all quality tests, certificate of authenticity issued"
+        },
+        {
+          "id": "hist_8",
+          "date": "2023-03-22T09:15:00Z",
+          "event": "Shipped",
+          "description": "Shipped to Master of Malt for exclusive release",
+          "location": "Talisker Dispatch",
+          "destination": "Master of Malt, Kent, UK",
+          "responsible": "Logistics Team",
+          "trackingNumber": "TK2023-2504-MoM"
+        },
+        {
+          "id": "hist_9",
+          "date": "2023-03-25T14:00:00Z",
+          "event": "Listed for Sale",
+          "description": "Made available for purchase on Master of Malt",
+          "location": "Master of Malt Online",
+          "price": 450.0,
+          "currency": "USD",
+          "responsible": "Master of Malt",
+          "notes": "Exclusive online release, limited to one per customer"
+        }
+      ],
+      "labels": [
+        {
+          "id": "label_1",
+          "title": "Master of Malt Exclusive",
+          "description": "Limited release exclusive to Master of Malt",
+          "additionalInfo": "Only 184 bottles produced",
+          "attachments": [
+            {
+              "id": "att_1",
+              "type": "image",
+              "url": "https://example.com/attachments/certificate1.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_certificate1.jpg"
+            },
+            {
+              "id": "att_2",
+              "type": "image",
+              "url": "https://example.com/attachments/certificate2.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_certificate2.jpg"
+            },
+            {
+              "id": "att_3",
+              "type": "pdf",
+              "url": "https://example.com/attachments/authenticity.pdf",
+              "thumbnail": "https://example.com/attachments/thumb_pdf.jpg"
+            }
+          ]
+        },
+        {
+          "id": "label_2",
+          "title": "Cask Strength Series",
+          "description": "Part of the limited cask strength collection",
+          "additionalInfo": "Natural color, non-chill filtered",
+          "attachments": [
+            {
+              "id": "att_4",
+              "type": "image",
+              "url": "https://example.com/attachments/cask_info1.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_cask_info1.jpg"
+            },
+            {
+              "id": "att_5",
+              "type": "image",
+              "url": "https://example.com/attachments/cask_info2.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_cask_info2.jpg"
+            },
+            {
+              "id": "att_6",
+              "type": "image",
+              "url": "https://example.com/attachments/distillery_photo.jpg",
+              "thumbnail": "https://example.com/attachments/thumb_distillery_photo.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
