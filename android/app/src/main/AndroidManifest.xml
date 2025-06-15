@@ -3,6 +3,8 @@
     <application
         android:label="OneCask"
         android:name="${applicationName}"
+        android:enableOnBackInvokedCallback="true"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

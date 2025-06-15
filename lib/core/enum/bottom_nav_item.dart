@@ -1,0 +1,1 @@
+enum BottomNavItem { scan, collection, shop, settings }

@@ -5,6 +5,8 @@ import 'package:clevit_flutter_bloc/domain/repositories/liquor_repository.dart';
 import 'package:clevit_flutter_bloc/domain/usecases/load_and_save_liquor_data.dart';
 import 'package:clevit_flutter_bloc/domain/usecases/switch_theme_mode.dart';
 import 'package:clevit_flutter_bloc/presentation/bloc/auth/auth_bloc.dart';
+import 'package:clevit_flutter_bloc/presentation/bloc/bottom_nav/bottom_nav_bloc.dart';
+import 'package:clevit_flutter_bloc/presentation/bloc/collection/collection_detail_bloc.dart';
 import 'package:clevit_flutter_bloc/presentation/bloc/liquor/liquor_bloc.dart';
 import 'package:clevit_flutter_bloc/presentation/bloc/theme/theme_bloc.dart';
 import 'package:get_it/get_it.dart';
@@ -32,4 +34,7 @@ Future<void> init() async {
   sl.registerLazySingleton(() => SwitchThemeModeUseCase());
   sl.registerFactory(() => ThemeBloc(sl()));
   sl.registerFactory(() => AuthBloc());
+
+   sl.registerFactory(() => BottomNavBloc());
+   sl.registerFactory(() => CollectionDetailBloc());
 }

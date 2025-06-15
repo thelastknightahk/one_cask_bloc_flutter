@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:clevit_flutter_bloc/domain/entities/liquor.dart';
 
 class LiquorModel {
@@ -154,7 +156,9 @@ class LiquorModel {
       'userNose': userNotes?.nose.descriptions.join('||'),
       'userPalate': userNotes?.palate.descriptions.join('||'),
       'userFinish': userNotes?.finish.descriptions.join('||'),
-      'historyJson': history.map((e) => e.toJson()).toList().toString(),
+      'historyJson': jsonEncode(history),  
+      'tastingAuthor': tastingNotes?.author,
+      'videoUrl': tastingNotes?.videoUrl,
     };
   }
 
@@ -182,8 +186,8 @@ class LiquorModel {
         finish: map['finish'],
       ),
       tastingNotes: TastingNotesModel(
-        author: null,
-        videoUrl: null,
+        author: map['tastingAuthor'] ?? '',
+        videoUrl: map['videoUrl'] ?? '',
         nose: NotesModel(
           descriptions: (map['tastingNose'] as String?)?.split('||') ?? [],
         ),
@@ -205,7 +209,10 @@ class LiquorModel {
           descriptions: (map['userFinish'] as String?)?.split('||') ?? [],
         ),
       ),
-      history: [], // Optional: deserialize if needed
+      history:
+          (jsonDecode(map['historyJson']) as List<dynamic>)
+              .map((e) => HistoryModel.fromJson(e))
+              .toList(),
     );
   }
 }
